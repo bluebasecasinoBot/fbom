@@ -129,10 +129,10 @@ __SYD.p3_tabs = () =>{
         },
         [
             __SYD.p3_tab(
-                {content:`100% fair launch. No presale. No dev wallets. Just pure meme power in the hands of the people.` ,title:`📦 Total Supply: 1,000,000,000 $FBOM` , img:"1"}
+                {content:`100% fair launch. No presale. No dev wallets. Just pure meme power in the hands of the people.` ,title:`📦 Total Supply: 10,000,000 $FBOM` , img:"1"}
             ),
             __SYD.p3_tab({
-                content:`No roadblocks, no whales, just full send: 1B supply, all to the community. Liquidity locked, ownership renounced. HODL or perish.`,title:`🔥 Tokenomics of Chaos` , img:"2"
+                content:`No roadblocks, just full send: 10m supply, all to the community. Liquidity locked, ownership renounced. HODL or perish.`,title:`🔥 Tokenomics of Chaos` , img:"2"
             }),
             __SYD.p3_tab({
                 content:`$FBOM is community ink. 100% supply flows through traders, artists, and degens. Every wallet a pen, every trade a page.`,title:`🖌 Meme-Driven Distribution` , img:"3"
