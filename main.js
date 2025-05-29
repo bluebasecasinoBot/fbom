@@ -45,14 +45,14 @@ __m(__SYD.container() , ()=>{
     const newBook = new bookify();
     newBook.pageSettings.style = newBook.createStyleArray('fontWeight:900;fontSize:13px;');
     newBook.pageSettings.styleP = newBook.createStyleArray('borderTopRightRadius:0;borderBottomRightRadius:0;background:#000;overflow:hidden;display:flex;align-items:center;justify-content:center;')
-    newBook.pages = 9;
+    newBook.pages = 21;
     newBook.parent = __v["pageMemesSubHeader"];
     newBook.bookSettings.maxSizing = false
     newBook.pageSettings.coverPageImage = "/cover.png"
     newBook.run()
     const book_pages = newBook.getPage_elements;
 
-    const memes = ["meme1.jpg" , "meme2.jpg" , "meme2.jpg_large" , "meme4.jpg" , "meme5.png" , "meme6.jpg" , "meme7.gif"]
+    const memes = ["meme1.jpg" , "meme2.jpg" , "meme2.jpg_large" , "meme4.jpg" , "meme5.png" , "meme6.jpg" , "meme8.jpg" , "meme9.jpg" , "meme10.jpg" , "meme11.jpg" , "meme12.jpg" , "meme13.gif" , "meme14.jpg" , "meme15.jpg" , "meme16.png" , "meme17.jpg" , "meme18.jpg" , "meme19.jpg" , "meme7.gif"]
     
     book_pages.forEach((page , id) =>{
         book_pages[id].style.borderTopRightRadius = "25px";
