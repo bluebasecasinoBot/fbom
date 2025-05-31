@@ -36,18 +36,18 @@ __SYD.p1SubHeader = () =>{
                             __SYD.desktopNav_button(),
                             __c(
                                 "a",
-                                {href:"#"},
+                                {href:"https://x.com/furiebook_erc20"},
                                 [
                                     __SYD.iconify_30px({attr:'fa-brands fa-x-twitter' , clr :' #f1c907 '}),
                                 ]
                             ),
-                            __c(
-                                "a",
-                                {href:"#"},
-                                [
-                                    __SYD.iconify_30px({attr:'fa-brands fa-telegram' , clr :' #f1c907 '})
-                                ]
-                            ),
+                            // __c(
+                            //     "a",
+                            //     {href:"#"},
+                            //     [
+                            //         __SYD.iconify_30px({attr:'fa-brands fa-telegram' , clr :' #f1c907 '})
+                            //     ]
+                            // ),
                             
                             
 
