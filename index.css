@@ -87,12 +87,12 @@ p::-webkit-scrollbar-track
     box-shadow: 0 15px 40px 0 rgba(0,0,0,.21);
     transform: translateY(-5px);
 }
-.p3_tab
+.p3_tab_1 , .p3_tab_2 , .p3_tab_3
 {
     position: relative;
     isolation: isolate;
 }
-.p3_tab::before
+.p3_tab_1::before
 {
     z-index: -1;
     content:"";
@@ -101,6 +101,28 @@ p::-webkit-scrollbar-track
     height:100px;
     width:230px;
     background:#8A63F7;
+    border-radius: 5%;
+}
+.p3_tab_2::before
+{
+    z-index: -1;
+    content:"";
+    position: absolute;
+    bottom:-10px;
+    height:100px;
+    width:230px;
+    background:#f1c907;
+    border-radius: 5%;
+}
+.p3_tab_3::before
+{
+    z-index: -1;
+    content:"";
+    position: absolute;
+    bottom:-10px;
+    height:100px;
+    width:230px;
+    background:#1561cb;
     border-radius: 5%;
 }
 .p4_tab

@@ -52,7 +52,7 @@ __m(__SYD.container() , ()=>{
     newBook.run()
     const book_pages = newBook.getPage_elements;
 
-    const memes = ["meme1.jpg" , "meme2.jpg" , "meme2.jpg_large" , "meme4.jpg" , "meme5.png" , "meme6.jpg" , "meme8.jpg" , "meme9.jpg" , "meme10.jpg" , "meme11.jpg" , "meme12.jpg" , "meme13.gif" , "meme14.jpg" , "meme15.jpg" , "meme16.png" , "meme17.jpg" , "meme18.jpg" , "meme19.jpg" , "meme7.gif"]
+    const memes = ["meme1.jpg" , "meme2.jpg" , "meme2.jpg_large" , "meme4.JPG" , "meme5.png" , "meme6.jpg" , "meme8.jpg" , "meme9.jpg" , "meme10.jpg" , "meme11.jpg" , "meme12.jpg" , "meme13.gif" , "meme14.jpg" , "meme15.jpg" , "meme16.png" , "meme17.jpg" , "meme18.jpg" , "meme19.jpg" , "meme7.gif"]
     
     book_pages.forEach((page , id) =>{
         book_pages[id].style.borderTopRightRadius = "25px";
