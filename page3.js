@@ -132,10 +132,10 @@ __SYD.p3_tabs = () =>{
                 {content:`100% fair launch. No presale. No dev wallets. Just pure meme power in the hands of the people.` ,title:`📦 Total Supply: 10,000,000 $FBOM` , img:"1"}
             ),
             __SYD.p3_tab({
-                content:`No roadblocks, just full send: 10m supply, all to the community. Liquidity locked, ownership renounced. HODL or perish.`,title:`🔥 Tokenomics of Chaos` , img:"2" , cls:"p3_tab_2"
+                content:`No roadblocks, just full send: 10m supply, all to the community. Liquidity locked, ownership renounced. HODL or perish.`,title:`🔥 Tokenomics of Chaos` , img:"2" , cls:""
             }),
             __SYD.p3_tab({
-                content:`$FBOM is community ink. 100% supply flows through traders, artists, and degens. Every wallet a pen, every trade a page.`,title:`🖌 Meme-Driven Distribution` , img:"3" , cls:"p3_tab_3"
+                content:`$FBOM is community ink. 100% supply flows through traders, artists, and degens. Every wallet a pen, every trade a page.`,title:`🖌 Meme-Driven Distribution` , img:"3" , cls:""
             }),
             // __SYD.p3_tab({
             //     content:`Fixed supply, zero fluff. $FBOM is etched on-chain with no take-backs. Meme responsibly.`,title:`📚 Printed on Ethereum, Powered by Memes` , img:"3"
@@ -145,7 +145,7 @@ __SYD.p3_tabs = () =>{
 }
 
 
-__SYD.p3_tab = ({title = '' , content = '' , img = "basePlus2" , cls = "p3_tab_1"}) =>{
+__SYD.p3_tab = ({title = '' , content = '' , img = "basePlus2" , cls = ""}) =>{
     return __c(
         'div',
         {
