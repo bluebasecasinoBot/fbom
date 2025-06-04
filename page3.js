@@ -179,7 +179,7 @@ __SYD.p3_tab = ({title = '' , content = '' , img = "basePlus2" , cls = ""}) =>{
                             __c(
                                 "img",
                                 {
-                                    style:"width:200px;height:200px;",
+                                    style:"width:200px;height:auto;",
                                     src:`./assets/${img}.png`
                                 }
                             ),
