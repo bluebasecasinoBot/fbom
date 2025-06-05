@@ -70,12 +70,11 @@ __m(__SYD.container() , ()=>{
         }
         else if(id === book_pages.length-1 || id === 0)
         {
-            console.log(book_pages[id])
             book_pages[id].style.backgroundImage = 'url(./book_lib/imgs/cover.png)';
             book_pages[id].style.backgroundPosition = "center";
             book_pages[id].style.backgroundSize = "contain";
             book_pages[id].style.backgroundRepeat = "no-repeat";
-            book_pages[id].style.backgroundColor = "grey";
+            book_pages[id].style.backgroundColor = "rgb(15, 70, 146)";
 
             book_pages[id].children[0].style.background = "unset";
 
