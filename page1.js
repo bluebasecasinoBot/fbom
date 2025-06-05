@@ -93,7 +93,7 @@ __SYD.p1_mainHeader = () =>{
             text-transform:uppercase;font-weight:900;font-size:${SYD_VAR.page1MainFont_1.get()};color:#ffffff;font-family:font1;text-align:center;display:flex;justify-content:center;align-items:center;`
         },
         [
-            __c("p" , {style:"max-width:500px;text-align:center;"} , ["fury's Book of memes"])
+            __c("p" , {style:"max-width:500px;text-align:center;"} , ["furies Book of memes"])
         ]
     )
 }
